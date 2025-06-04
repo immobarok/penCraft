@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+.active {
+  font-weight: bold;
+}
+
+html, body {
+  scrollbar-width: none;       
+  -ms-overflow-style: none;    
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;      
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
