@@ -16,7 +16,7 @@ const Button = ({ children, onClick, className = "", disabled = false, size = "m
     <button
       onClick={onClick}
       disabled={disabled}
-      className={`font-semibold border border-gray-50 text-white bg-gradient-to-l to-[#b20f75] from-blue-600/70 hover:from-blue-600/90 cursor-pointer transition-all  ease-linear duration-300 ${getSizeClasses()} ${className}`}
+      className={`font-semibold border border-gray-50 text-white bg-gradient-to-l to-[#eb3af3] from-[#794ffb] hover:from-blue-600/90 cursor-pointer transition-all  ease-linear duration-300 ${getSizeClasses()} ${className}`}
     >
       {children}
     </button>
