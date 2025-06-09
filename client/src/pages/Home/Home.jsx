@@ -1,4 +1,5 @@
 import Hero from "../../components/Hero/Hero"
+import NewsLetter from "../../components/NewsLetter/NewsLetter"
 import BlogCategory from "./BlogCategory"
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <Hero />
       <BlogCategory />
+      <NewsLetter />
     </div>
   )
 }

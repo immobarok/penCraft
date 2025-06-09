@@ -10,7 +10,7 @@ const Hero = () => {
           <img src={assets.star_icon} alt="" className='w-2.5' />
         </div>
         <div className="space-y-5 flex flex-col">
-          <h1 className="text-4xl sm:text-5xl font-bold">Your own <span className="text-purple-700">blogging </span> <br /> platform.</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold ">Your own <span className='font-bold bg-gradient-to-r to-[#eb3af3] from-[#794ffb] bg-clip-text text-transparent'>blogging </span> <br /> platform.</h1>
           <p className="my-3 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus saepe <br /> libero aspernatur laudantium sapiente reprehenderit eveniet repellat voluptatibus facere, at non,<br></br> fuga earum cumque officia doloremque incidunt facilis!</p>
         </div>
         <form className="flex justify-between max-w-lg max-sm:scale-75 mx-auto my-3 border border-purple-300 rounded-md pr-1.5 pl-4 py-1">
